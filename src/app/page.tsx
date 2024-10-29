@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import Video from "@/components/video/Video";
+import Videoloading from "@/components/video/Videoloading";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
@@ -16,8 +19,14 @@ export default function Home() {
             Comenzar
           </button>
         </div>
-        <div className="bg-gray-600 hidden sm:block">
-          <div className="2xl:w-[64rem] 2xl:h-[32rem] w-[38rem] h-80"></div>
+        <div className="bg-gray-600 hidden sm:block rounded-2xl  overflow-hidden shadow-2xl shadow-[#119FF8]">
+          <div className="2xl:w-[64rem] 2xl:h-[32rem] w-[38rem] h-80 ">
+            <Suspense fallback={<Videoloading/>}>
+              <Video />
+            </Suspense>
+
+
+          </div>
         </div>
       </section>
 
