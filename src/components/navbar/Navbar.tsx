@@ -6,7 +6,7 @@ export default function Navbar() {
             <div className="text-center text-3xl font-extrabold">
                 <h1>INFOMILY</h1>
             </div>
-            <div className="flex gap-12 px-4 m-2">
+            <div className="flex gap-12 px-4 m-2 overflow-scroll sm:overflow-hidden">
                 <Link href="/">Documentos generales</Link>
                 <Link href="/">Miembro1</Link>
                 <Link href="/">Miembro2</Link>
