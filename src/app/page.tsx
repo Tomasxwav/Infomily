@@ -38,7 +38,7 @@ export default function Home() {
 
         <section className="text-center flex flex-col items-center gap-8">
           <h2 className="font-extrabold text-3xl">Plataformas</h2>
-          <div className="grid grid-cols-3 bg-[#111111] w-[42rem] items-center h-[12rem] rounded-3xl">
+          <div className="grid grid-rows-3 sm:grid-rows-1 sm:grid-cols-3 bg-[#111111] w-3/4 sm:w-[42rem] items-center h-[12rem] rounded-3xl">
             <div className="justify-self-center col-span-1 bg-black size-3/4"></div>
             <div className="justify-self-center border-x  bg-black size-3/4"></div>
             <div className="justify-self-center bg-black size-3/4"></div>

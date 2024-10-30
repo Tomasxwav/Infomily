@@ -24,7 +24,7 @@ export default function RootLayout({
         className={`antialiased `}
       >
         <Navbar/>
-        <div className="mx-40 ">
+        <div className="mx-4 sm:mx-40 ">
           {children}
         </div>
         <Footer/>
