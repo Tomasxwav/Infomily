@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Navbar() {
     return (
-        <div className="absolute bg-[#0F1214] w-full flex flex-col gap-2">
+        <div className="absolute bg-[#0F1214] w-full flex flex-col gap-2 border-b border-blue-400">
             <div className="text-center text-3xl font-extrabold">
                 <h1>INFOMILY</h1>
             </div>

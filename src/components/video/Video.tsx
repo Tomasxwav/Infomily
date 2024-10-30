@@ -2,7 +2,7 @@ export default function Video() {
     return (
         <div>
             <video 
-            className="rounded-2xl "
+            className="rounded-2xl"
             autoPlay
             loop
             muted
@@ -17,8 +17,8 @@ export default function Video() {
                 zIndex: -1,
             }}
             >
-            <source src="/video.mp4" type="video/mp4" />
-            {/* <source src="/video.webm" type="video/webm" /> */}
+            {/* <source src="/video.mp4" type="video/mp4" /> */}
+            <source src="/video.webm" type="video/webm" />
             Your browser does not support the video tag.
             </video>
         </div>
